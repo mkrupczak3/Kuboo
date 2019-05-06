@@ -90,7 +90,7 @@ open class LoginEditFragment : DaggerFragment() {
         deleteServerButton.gone()
 
         val exampleNickname = getString(R.string.login_example)
-        val exampleServerAddress = "http://192.168.1.100:2202/opds-comics/"
+        val exampleServerAddress = "192.168.1.100:2202/ubooquity/opds-comics/"
 
         editTextNickName.setText(exampleNickname, TextView.BufferType.EDITABLE)
         editTextServerAddress.setText(exampleServerAddress, TextView.BufferType.EDITABLE)
